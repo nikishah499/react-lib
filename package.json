@@ -24,5 +24,9 @@
     "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.6.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "moment": "^2.30.1",
+    "react-lib": "github:nikishah499/react-lib"
   }
 }
