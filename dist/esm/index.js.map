@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/helpers/calculateTime.ts"],"sourcesContent":[null],"names":["statusCheck","props","console","log","message"],"mappings":"AAEA,MAAMA,EAAeC,IACjBC,QAAQC,IAAI,qBAAsBF,EAAMG,QAAQ"}

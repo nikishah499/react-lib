@@ -1,0 +1,1 @@
+{"version":3,"file":"calculateTime.js","sourceRoot":"","sources":["../../src/helpers/calculateTime.ts"],"names":[],"mappings":"AAEA,MAAM,WAAW,GAAG,CAAC,KAAuB,EAAE,EAAE;IAC5C,OAAO,CAAC,GAAG,CAAC,oBAAoB,EAAE,KAAK,CAAC,OAAO,CAAC,CAAC;AACrD,CAAC,CAAA;AAED,eAAe,WAAW,CAAC"}
