@@ -9,13 +9,4 @@ declare function calculateTime(currentTime: string, params: TimeParams): string;
 
 declare function healthCheck(): void;
 
-declare const _default: {
-    calculateTime: typeof calculateTime;
-    healthCheck: typeof healthCheck;
-};
-
-declare namespace index {
-  export { _default as default };
-}
-
-export { index as Helpers };
+export { calculateTime, healthCheck };

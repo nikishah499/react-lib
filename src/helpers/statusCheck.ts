@@ -1,3 +1,5 @@
-export function healthCheck() {
+function healthCheck() {
     console.log('healthCheck');
-};
+}
+
+export default healthCheck;

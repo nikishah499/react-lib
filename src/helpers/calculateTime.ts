@@ -1,7 +1,7 @@
 import moment from "moment";
 import { TimeParams } from './calculateTimeProps.ts';
 
-export function calculateTime(currentTime: string, params: TimeParams): string {
+function calculateTime(currentTime: string, params: TimeParams): string {
   const currentISTTime = currentTime;
 
   console.log("start", params.start_time, "current", currentISTTime);
@@ -54,3 +54,5 @@ export function calculateTime(currentTime: string, params: TimeParams): string {
 }
 
 // =====================================================================================================
+
+export default calculateTime;
