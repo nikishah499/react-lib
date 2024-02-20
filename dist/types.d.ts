@@ -14,4 +14,8 @@ declare const _default: {
     healthCheck: typeof healthCheck;
 };
 
-export { _default as default };
+declare namespace index {
+  export { _default as default };
+}
+
+export { index as Helpers };
