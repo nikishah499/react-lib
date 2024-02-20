@@ -1,3 +1,4 @@
 import calculateTime from'./helpers/calculateTime.ts';
+import healthCheck from './helpers/statusCheck.ts';
 
-export default { calculateTime };
+export default { calculateTime, healthCheck };
