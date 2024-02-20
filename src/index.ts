@@ -1,1 +1,3 @@
-export { default } from'./helpers/calculateTime.ts';
+import calculateTime from'./helpers/calculateTime.ts';
+
+export default { calculateTime };

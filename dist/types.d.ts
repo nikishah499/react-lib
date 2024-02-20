@@ -7,4 +7,8 @@ interface TimeParams {
 
 declare function calculateTime(currentTime: string, params: TimeParams): string;
 
-export { calculateTime as default };
+declare const _default: {
+    calculateTime: typeof calculateTime;
+};
+
+export { _default as default };
