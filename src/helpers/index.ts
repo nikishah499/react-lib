@@ -61,6 +61,6 @@ function healthCheck() {
 }
 
 export default {
-    calculateTime,
-    healthCheck
+  healthCheck,
+  calculateTime
 }
