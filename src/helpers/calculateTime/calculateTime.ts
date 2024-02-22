@@ -1,5 +1,5 @@
 import moment from "moment";
-import { TimeParams } from './calculateTimeProps.ts';
+import { TimeParams } from './calculateTimeProps.types';
 
 function calculateTime(currentTime: string, params: TimeParams): string {
   const currentISTTime = currentTime;

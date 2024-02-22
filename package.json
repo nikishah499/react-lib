@@ -4,44 +4,37 @@
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
-  "type": "module",
   "files": [
     "dist"
   ],
-  "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/cjs/index.js"
-    },
-    "./alternate-renderers": {
-      "types": "./dist/index.d.ts",
-      "default": "./dist/cjs/index.js"
-    }
-  },
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "clean": "rimraf dist",
+    "build": "npm run clean && rollup -c"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Nikita Shah",
   "license": "ISC",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^11.1.6",
-    "@types/react": "^18.2.56",
-    "react": "^18.2.0",
-    "rollup": "^4.12.0",
-    "rollup-plugin-dts": "^6.1.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "@types/react": "^17.0.18",
+    "react": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.56.2",
+    "rollup-plugin-dts": "^3.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-postcss": "^4.0.2",
-    "tslib": "^2.6.2",
-    "typescript": "^5.3.3"
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "moment": "^2.30.1",
+    "react": "^17.0.2"
   },
   "dependencies": {
-    "moment": "^2.30.1",
-    "react-lib": "github:nikishah499/react-lib"
+    "@rollup/plugin-terser": "^0.4.4"
   }
 }

@@ -2,7 +2,7 @@
 // import healthCheck from './healthCheck';
 
 import moment from "moment";
-import { TimeParams } from './calculateTime/calculateTimeProps';
+import { TimeParams } from './calculateTime/calculateTimeProps.types';
 
 function calculateTime(currentTime: string, params: TimeParams): string {
   const currentISTTime = currentTime;
