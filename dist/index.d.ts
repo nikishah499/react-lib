@@ -7,7 +7,7 @@ interface TimeParams {
 
 declare function calculateTime(currentTime: string, params: TimeParams): string;
 
-declare namespace index_d$1 {
+declare namespace index_d$2 {
   export {
     calculateTime as default,
   };
@@ -15,10 +15,17 @@ declare namespace index_d$1 {
 
 declare function healthCheck(): void;
 
-declare namespace index_d {
+declare namespace index_d$1 {
   export {
     healthCheck as default,
   };
 }
 
-export { index_d$1 as calculateTime, index_d as healthCheck };
+declare namespace index_d {
+  export {
+    index_d$2 as calculateTime,
+    index_d$1 as healthCheck,
+  };
+}
+
+export { index_d as Helpers };
