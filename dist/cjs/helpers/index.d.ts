@@ -1,6 +1,5 @@
-import { TimeParams } from './calculateTime/calculateTimeProps.types';
-declare function calculateTime(currentTime: string, params: TimeParams): string;
-declare function healthCheck(): void;
+import calculateTime from './calculateTime';
+import healthCheck from './healthCheck';
 declare const _default: {
     healthCheck: typeof healthCheck;
     calculateTime: typeof calculateTime;
