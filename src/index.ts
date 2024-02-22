@@ -1,1 +1,3 @@
-export * as Helpers from './helpers';
+import Helpers from './helpers';
+
+export default Helpers;
