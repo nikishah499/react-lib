@@ -1,2 +1,1 @@
-import helpers from "./src/index";
-export default helpers;
+export declare function formatTime(time: string, format: string): string;

@@ -1,3 +1,5 @@
-import helpers from "./src/index";
+import moment from "moment";
 
-export default helpers;
+export function formatTime(time: string, format: string) {
+    return moment(time).format(format);
+  }
