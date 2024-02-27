@@ -5,6 +5,8 @@ import { terser } from 'rollup-plugin-terser';
 import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
 import dts from 'rollup-plugin-dts';
+import babel from 'rollup-plugin-babel';
+// import uglify from 'rollup-plugin-uglify';
 
 const packageJson = require('./package.json');
 
@@ -14,29 +16,26 @@ export default [
         output: [
             {
                 file: packageJson.main,
-                format: 'cjs',
-                sourcemap: true,
-                name: 'react-lib'
-            },
-            {
-                file: packageJson.module,
-                format: 'esm',
-                sourcemap: true
+                format: 'iife',
+                sourcemap: 'inline',
+                name: 'reactlib'
             }
         ],
         plugins: [
             external(),
-            resolve(),
+            resolve({
+                jsnext: true,
+                main: true,
+                browser: true,
+              }),
             commonjs(),
             typescript({ tsconfig: './tsconfig.json' }),
             postcss(),
-            terser()
+            terser(),
+            babel({
+                exclude: 'node_modules/**',
+            }),
+            // uglify()
         ],
-    },
-    {
-        input: 'dist/esm/index.d.ts',
-        output: [{ file: 'dist/index.d.ts', format: "esm" }],
-        external: [/\.css$/],
-        plugins: [dts()],
     },
 ]

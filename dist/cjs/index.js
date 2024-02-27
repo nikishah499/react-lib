@@ -1,2 +1,2 @@
-"use strict";function e(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("moment"));exports.formatTime=function(e,r){return t.default(e).format(r)};
-//# sourceMappingURL=index.js.map
+var reactlib=function(e,t){"use strict";function r(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var n=r(t);return e.formatTime=function(e,t){return n.default(e).format(t)},Object.defineProperty(e,"__esModule",{value:!0}),e}({},moment);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm5hbWVzIjpbInRpbWUiLCJmb3JtYXQiLCJtb21lbnQiXSwibWFwcGluZ3MiOiIrSUFFZ0IsU0FBV0EsRUFBY0MsR0FDckMsT0FBT0MsRUFBTSxRQUFDRixHQUFNQyxPQUFPQSxFQUM3QiJ9
