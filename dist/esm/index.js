@@ -1,0 +1,2 @@
+import o from"moment";function r(r,t){return o(r).format(t)}export{r as formatTime};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm5hbWVzIjpbImZvcm1hdFRpbWUiLCJ0aW1lIiwiZm9ybWF0IiwibW9tZW50Il0sIm1hcHBpbmdzIjoic0JBRWdCLFNBQUFBLEVBQVdDLEVBQWNDLEdBQ3JDLE9BQU9DLEVBQU9GLEdBQU1DLE9BQU9BLEVBQzdCIn0=

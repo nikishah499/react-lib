@@ -16,9 +16,17 @@ export default [
         output: [
             {
                 file: packageJson.main,
-                format: 'iife',
+                format: 'cjs',
                 sourcemap: 'inline',
-                name: 'reactlib',
+                name: 'react-lib',
+                globals: {
+                    moment: 'moment'
+                  }
+            }, {
+                file: packageJson.module,
+                format: 'esm',
+                sourcemap: 'inline',
+                name: 'react-lib',
                 globals: {
                     moment: 'moment'
                   }
@@ -40,5 +48,11 @@ export default [
             }),
             // uglify()
         ],
+    },
+    {
+        input: 'dist/esm/index.d.ts',
+        output: [{ file: 'dist/index.d.ts', format: "esm" }],
+        external: [/\.css$/],
+        plugins: [dts()],
     },
 ]
