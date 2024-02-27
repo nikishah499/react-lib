@@ -18,7 +18,10 @@ export default [
                 file: packageJson.main,
                 format: 'iife',
                 sourcemap: 'inline',
-                name: 'reactlib'
+                name: 'reactlib',
+                globals: {
+                    moment: 'moment'
+                  }
             }
         ],
         plugins: [
