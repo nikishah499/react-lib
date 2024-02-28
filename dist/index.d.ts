@@ -1,3 +1,3 @@
-declare function healthCheck(): void;
+declare function testFunction(): void;
 
-export { healthCheck };
+export { testFunction };

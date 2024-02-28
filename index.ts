@@ -5,6 +5,10 @@ import moment from "moment";
 // export { healthCheck } from './src/helpers/healthCheck/healthCheck';
 
 
-export function healthCheck() {
+export function testFunction() {
   console.log('healthCheck qwqw');
 }
+
+// export function formatTime(time: string, format: string) {
+//     return moment(time).format(format);
+// }

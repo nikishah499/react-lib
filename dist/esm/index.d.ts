@@ -1,1 +1,1 @@
-export declare function healthCheck(): void;
+export declare function testFunction(): void;
