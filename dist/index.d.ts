@@ -1,3 +1,4 @@
 declare function testFunction(): void;
+declare function formatTime(time: string, format: string): string;
 
-export { testFunction };
+export { formatTime, testFunction };

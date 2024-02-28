@@ -1,2 +1,2 @@
-function o(){console.log("healthCheck qwqw")}export{o as testFunction};
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm5hbWVzIjpbInRlc3RGdW5jdGlvbiIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiJTQU9nQkEsSUFDZEMsUUFBUUMsSUFBSSxtQkFDZCJ9
+import o from"moment";function t(){console.log("healthCheck qwqw")}function n(t,n){return o(t).format(n)}export{n as formatTime,t as testFunction};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm5hbWVzIjpbInRlc3RGdW5jdGlvbiIsImNvbnNvbGUiLCJsb2ciLCJmb3JtYXRUaW1lIiwidGltZSIsImZvcm1hdCIsIm1vbWVudCJdLCJtYXBwaW5ncyI6IitCQU9nQkEsSUFDZEMsUUFBUUMsSUFBSSxtQkFDZCxDQUVnQixTQUFBQyxFQUFXQyxFQUFjQyxHQUNyQyxPQUFPQyxFQUFPRixHQUFNQyxPQUFPQSxFQUMvQiJ9
