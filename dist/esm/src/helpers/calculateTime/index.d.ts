@@ -1,1 +1,1 @@
-export { default } from './calculateTime';
+export * as calculateTime from './calculateTime';

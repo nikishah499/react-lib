@@ -7,19 +7,32 @@ interface TimeParams {
 
 declare function calculateTime(currentTime: string, params: TimeParams): string;
 
+declare namespace calculateTime_d {
+  export {
+    calculateTime as default,
+  };
+}
+
+declare namespace index_d$1 {
+  export {
+    calculateTime_d as calculateTime,
+  };
+}
+
 declare function healthCheck(): void;
 
-declare const _default: {
-    calculateTime: typeof calculateTime;
-    healthCheck: typeof healthCheck;
-};
+declare namespace healthCheck_d {
+  export {
+    healthCheck as default,
+  };
+}
 
 declare namespace index_d {
   export {
-    _default as default,
+    healthCheck_d as healthCheck,
   };
 }
 
 declare function formatTime(time: string, format: string): string;
 
-export { formatTime, index_d as helpers };
+export { index_d$1 as calculateTime, formatTime, index_d as healthCheck };

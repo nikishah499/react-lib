@@ -1,1 +1,1 @@
-export { default } from './healthCheck';
+export * as healthCheck from './healthCheck';

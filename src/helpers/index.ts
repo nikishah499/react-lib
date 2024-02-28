@@ -1,7 +1,2 @@
-import calculateTime  from './calculateTime';
-import healthCheck from './healthCheck';
-
-export default {
-  calculateTime,
-  healthCheck
-}
+export * as calculateTime  from './calculateTime';
+export * as healthCheck from './healthCheck';
