@@ -1,2 +1,2 @@
-import o from"moment";function t(){console.log("healthCheck qwqw")}function n(t,n){return o(t).format(n)}export{n as formatTime,t as healthCheck};
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm5hbWVzIjpbImhlYWx0aENoZWNrIiwiY29uc29sZSIsImxvZyIsImZvcm1hdFRpbWUiLCJ0aW1lIiwiZm9ybWF0IiwibW9tZW50Il0sIm1hcHBpbmdzIjoiK0JBT2dCQSxJQUNkQyxRQUFRQyxJQUFJLG1CQUNkLENBRWdCLFNBQUFDLEVBQVdDLEVBQWNDLEdBQ3JDLE9BQU9DLEVBQU9GLEdBQU1DLE9BQU9BLEVBQy9CIn0=
+function o(){console.log("healthCheck qwqw")}export{o as healthCheck};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2luZGV4LnRzIl0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm5hbWVzIjpbImhlYWx0aENoZWNrIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6IlNBT2dCQSxJQUNkQyxRQUFRQyxJQUFJLG1CQUNkIn0=

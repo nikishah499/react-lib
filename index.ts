@@ -8,7 +8,3 @@ import moment from "moment";
 export function healthCheck() {
   console.log('healthCheck qwqw');
 }
-
-export function formatTime(time: string, format: string) {
-    return moment(time).format(format);
-}
