@@ -9,7 +9,6 @@ declare function calculateTime(currentTime: string, params: TimeParams): string;
 
 declare function healthCheck(): void;
 
-declare function testFunction(): void;
 declare function formatTime(time: string, format: string): string;
 
-export { calculateTime, formatTime, healthCheck, testFunction };
+export { calculateTime, formatTime, healthCheck };
