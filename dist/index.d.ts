@@ -7,8 +7,7 @@ interface TimeParams {
 
 declare function calculateTime(currentTime: string, params: TimeParams): string;
 
-declare function healthCheck(): void;
-
 declare function formatTime(time: string, format: string): string;
+declare function healthCheck(): void;
 
 export { calculateTime, formatTime, healthCheck };
