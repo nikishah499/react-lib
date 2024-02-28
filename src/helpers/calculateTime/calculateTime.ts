@@ -1,7 +1,7 @@
 import moment from "moment";
 import { TimeParams } from './calculateTimeProps.types';
 
-function calculateTime(currentTime: string, params: TimeParams): string {
+export function calculateTime(currentTime: string, params: TimeParams): string {
   const currentISTTime = currentTime;
 
   console.log("start", params.start_time, "current", currentISTTime);
@@ -52,7 +52,3 @@ function calculateTime(currentTime: string, params: TimeParams): string {
 
   return `${days}d ${hours}h`;
 }
-
-// =====================================================================================================
-
-export default calculateTime;

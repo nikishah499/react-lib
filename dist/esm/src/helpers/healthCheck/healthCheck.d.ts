@@ -1,2 +1,1 @@
-declare function healthCheck(): void;
-export default healthCheck;
+export declare function healthCheck(): void;
